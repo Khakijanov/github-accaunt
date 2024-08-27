@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -23,7 +26,7 @@
 body{
     background-color: var( --color-background-light);
     ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 .container{
     max-width: 730px;
