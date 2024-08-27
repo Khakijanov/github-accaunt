@@ -138,7 +138,22 @@ box-shadow: -2px 3px 17px -6px rgba(0,0,0,0.75);
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    margin
+   
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Input maydoni ichidagi rangni o'chirish uchun */
+    -webkit-text-fill-color: #000 !important; /* Matn rangini qora rangga o'zgartirish uchun */
+}
+
+/* Yana boshqa brauzerlar uchun: */
+input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+    -moz-text-fill-color: #000;
+}
+
+input:-ms-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+    -ms-text-fill-color: #000;
 }
 
 
